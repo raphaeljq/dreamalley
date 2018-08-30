@@ -1,0 +1,33 @@
+<head>
+	<meta charset="utf-8" />
+	<title>Galereya</title>
+    <link href="css/jquery.galereya.css" rel="stylesheet"/>
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/jquery.galereya.ie.css">
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.galereya.min.js"></script>
+    <script>
+        $(function() {
+            $('#galleryherepls').galereya();
+        });
+    </script>
+</head>
+<body>
+    <div id="galleryherepls">
+        <img src="path/to/thumbnail"
+            alt="Title here"
+            title="Or here(more priority)"
+            data-desc="some description"
+            data-category="image category here"
+            data-fullsrc="path/to/full/image."
+        />        
+        ...        
+        <img src="img/costa-norte-06.jpg"
+            alt="Image"
+            data-desc="Example"
+            data-fullsrc="img/costa-norte-06.jpg"
+        />
+    </div>
+</body>
